@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProjekatMarina2.Page.Objects;
 using ProjekatMarina2.Page.Test;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium;
 using System.Threading;
 
 namespace ProjekatMarina2
@@ -15,20 +8,15 @@ namespace ProjekatMarina2
 
     {
 
-
+   
         static void Main(string[] args)
         {
-
-            //SignOutTest.TestSignOut();
-
-            //HumanityEditStaffTest.TestUploadPicture();
             int izbor=-1;
             bool izlaz = false;
             int waitInMilliseconds = 1000;
             do
             {
                 PrintMenu();
-                //dodaj try catch
                 try
                 {
                     izbor = int.Parse(Console.ReadLine());
@@ -118,10 +106,6 @@ namespace ProjekatMarina2
 
         }
 
-
-
-
-
          static void PrintMenu()
          {
                 Console.WriteLine("0-Izlaz");
@@ -133,19 +117,7 @@ namespace ProjekatMarina2
                 Console.WriteLine("6-Settings Test");
                 Console.WriteLine("7-Edite Profile Test");
             }
-            
-
-
-
-
-            //  TestLogin.TeostGoToLogin();
-            //  TestLogin.TestFillForm();
-
-            //AddEmployeesTest.TestAddEmployees();
-            // AddEmployeesTest.TestFillFormAutomatic();
-            // HumanitySettingsTest.TeostGoToSettings();
-            //TestLoginExcell.TestLoginUsers();
-
+           
         
     }
 }
