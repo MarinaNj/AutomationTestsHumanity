@@ -66,14 +66,14 @@ namespace ProjekatMarina2
                         }
                     case 3:
                         {
-                            Console.WriteLine("3");
+                            Console.WriteLine("3-Sginout test");
                             Thread.Sleep(waitInMilliseconds);
                             SignOutTest.TestSignOut();
                             break;
                         }
                     case 4:
                         {
-                            Console.WriteLine("4");
+                            Console.WriteLine("4-Add new employee test");
                             Thread.Sleep(waitInMilliseconds);
                             AddEmployeesTest.TestAddEmployees();
                             break;
@@ -89,14 +89,14 @@ namespace ProjekatMarina2
 
                     case 6:
                         {
-                            Console.WriteLine("6");
+                            Console.WriteLine("6-Settings Test");
                             Thread.Sleep(waitInMilliseconds);
                             HumanitySettingsTest.TeostGoToSettings();
                             break;
                         }
                     case 7:
                         {
-                            Console.WriteLine("7");
+                            Console.WriteLine("7-Edite Profile Test");
                             Thread.Sleep(waitInMilliseconds);
                             HumanityEditStaffTest.TestUploadPicture();
                             break;
