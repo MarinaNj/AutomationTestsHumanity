@@ -80,7 +80,7 @@ namespace ProjekatMarina2
                         }
                     case 5:
                         {
-                            Console.WriteLine("5");
+                            Console.WriteLine("5-Add new employee test using Excel data");
                             Thread.Sleep(waitInMilliseconds);
                             AddEmployeesTest.TestFillFormAutomatic();
 
