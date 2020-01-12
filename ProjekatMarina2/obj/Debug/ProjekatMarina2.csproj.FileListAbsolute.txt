@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\ProjekatMarina2.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\ProjekatMarina2.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\ProjekatMarina2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\IronXL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\WebDriver.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\WebDriver.Support.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\IronXL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\bin\Debug\WebDriver.Support.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\obj\Debug\ProjekatMarina2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\obj\Debug\ProjekatMarina2.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\ProjekatMarina2\ProjekatMarina2\obj\Debug\ProjekatMarina2.pdb
