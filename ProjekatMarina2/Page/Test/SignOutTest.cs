@@ -34,22 +34,21 @@ namespace ProjekatMarina2.Page.Test
             HumanityProfile.ClickProfileMenu(wd);
             Thread.Sleep(3000);
             HumanityProfile.ClickSignOut(wd);
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
 
-                //Convert to javascript 
-                IJavaScriptExecutor js = (IJavaScriptExecutor)wd;
+              
 
              if (wd.Url.Contains("https://chemschool.humanity.com/app/"))
             {
-                    js.ExecuteScript("alert('Successfully logout');");
+                   
                      
-                    // MessageBox.Show("Successfully logout");
+                    MessageBox.Show("Successfully logout");
                 }
             else
             {
-                    js.ExecuteScript("alert('Login Fail');");
+                 
              
-                    // MessageBox.Show("Login Fail");
+                    MessageBox.Show("Login Fail");
                 }
             
             }

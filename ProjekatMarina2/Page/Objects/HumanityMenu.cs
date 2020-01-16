@@ -81,8 +81,10 @@ namespace ProjekatMarina2.Page.Objects
         public static void ClickSettingsButton(IWebDriver wd)
         {
             GetSettingsButton(wd).Click();
-            #endregion
+           
         }
+        #endregion
+        #region Click Payroll
         public static IWebElement GetPayroll(IWebDriver wd)
         {
             return wd.FindElement(By.XPath(Payroll_XPath));
@@ -91,6 +93,8 @@ namespace ProjekatMarina2.Page.Objects
         {
             GetPayroll(wd).Click();
         }
+        #endregion
+        #region Click Report
         public static IWebElement GetReport(IWebDriver wd)
         {
             return wd.FindElement(By.XPath(Report_XPath));
@@ -99,6 +103,8 @@ namespace ProjekatMarina2.Page.Objects
         {
             GetReport(wd).Click();
         }
+        #endregion
+        #region Click Staff
         public static IWebElement GetStaff(IWebDriver wd)
         {
             return wd.FindElement(By.XPath(Staff_XPath));
@@ -107,6 +113,6 @@ namespace ProjekatMarina2.Page.Objects
         {
             GetStaff(wd).Click();
         }
-
+        #endregion
     }
 }

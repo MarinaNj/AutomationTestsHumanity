@@ -12,6 +12,9 @@ namespace ProjekatMarina2.Page.Objects
     class HumanityStaff
     {
         public static readonly string URL2 = "https://miki2.humanity.com/app/staff/add/";
+        public static readonly string URL3 = "https://chemschool.humanity.com/app/dashboard/";
+        public static readonly string URL4 = "https://chemschool.humanity.com/app/staff/list/load/true/";
+        public static readonly string URL5 = "https://chemschool.humanity.com/app/staff/assign/";
         public static readonly string NameStaff_XPath = "//a[@class='staff-employee']";
         public static readonly string AddEmployees_XPath = "//button[@id='act_primary']";
         public static readonly string FirstName_XPath = "//input[@id='_asf1']";  

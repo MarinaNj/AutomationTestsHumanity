@@ -27,9 +27,11 @@ namespace ProjekatMarina2.Page.Test
             TestLogin.FillForm(wd, "xeyiro8556@mailer9.net", "Mikica345");
             HuamnityLogin.ClickButtonLogIn(wd);
             HumanityMenu.ClickSettingsButton(wd);
+            Thread.Sleep(3000);
             HumanitySettings.SelectCountry(wd, "Italy");
             HumanitySettings.SelectLanguage(wd, "Italian (machine)");
             HumanitySettings.SelectTimeFormat(wd, "24 hour");
+            Thread.Sleep(3000);
             HumanityMenu.ClickSettingsButton(wd);
 
         }

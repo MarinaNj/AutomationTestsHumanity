@@ -32,7 +32,7 @@ namespace ProjekatMarina2.Page.Test
             HumanityProfile.ClickProfile(wd);
             HumanityEditStaff.ClickEditDetails(wd);
 
-            HumanityEditStaff.TestUploadPicture(wd);
+            HumanityEditStaff.ClickUploadPicture(wd);
             Thread.Sleep(5000);
             HumanityEditStaff.SendNickname(wd, "Maki");
             HumanityEditStaff.ClickSaveButton(wd);
